@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(52, 152, 219);
+}
+
+header li{
+    font-size: 1.4rem;
+}
+
+.search{
+    padding: 15px 0;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+.search input[type=text]{
+    width: 50%;
+    padding: 10px;
+}
+.search input[type=submit]{
+    padding: 12px 15px;
+    background-color: #3498db;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+
+.box:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.col-5{
+    float: left;
+    width: 20%;
+    padding: 10px;
+    box-sizing: border-box;
+    height: 100px;
+    text-align: center;
+}
+
+
+.card .card-title {
+    color: #858585;
+    font-size: 1.2rem;
+    white-space: nowrap; /* Tambahkan properti white-space: nowrap; */
+    overflow: hidden; /* Tambahkan properti overflow: hidden; */
+    text-overflow: ellipsis; /* Tambahkan properti text-overflow: ellipsis; */
+}
+
+.card .text {
+    font-weight: bold;
+    color: red;
+    float: right;
+}
+.col-2 .harga {
+    font-weight: bold;
+    color: red;
+    margin: 10px 0;
+}
+
+.col-2{
+    width: 50%;
+    min-height: 200px;
+    padding: 10px;
+    box-sizing: border-box;
+    float: left;
+}
+.col-2 h2,
+.col-2 p{
+    margin: 10px 0;
+}
+
+.btn-beli {
+    margin-top: 10px; /* Adjust the margin based on your design */
+}
+
+.btn-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #3498db; /* Change the background color */
+    color: #fff; /* Change the text color */
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-link:hover {
+    background-color: #55bbff; /* Change the background color on hover */
+}
+
+
+/* CSS for the Footer */
+.footer {
+    background-color: #3498db; /* Background color for the footer */
+    color: #fff; /* Text color for the footer */
+    padding: 20px; /* Padding around the content inside the footer */
+    text-align: center; /* Center align the content */
+}
+
+.footer .container {
+    max-width: 1200px; /* Maximum width for the container */
+    margin: 0 auto; /* Center the container on the page */
+}
+
+.footer h4 {
+    color: #ffcc00; /* Header text color */
+    margin-bottom: 10px; /* Bottom margin for header */
+}
+
+.footer p {
+    margin-bottom: 8px; /* Bottom margin for paragraphs */
+}
+
+.footer small {
+    display: block; /* Make the copyright text a block element to take full width */
+    margin-top: 20px; /* Top margin for the copyright text */
+    color: #000000; /* Color for the copyright text */
+}
